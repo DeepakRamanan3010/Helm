@@ -1038,8 +1038,6 @@ grafana:
   externalSecret:
     name: 
     remotesecretname:       #name of secret store in aws secret manager
-    remotepasswordkey:             #key of the login password value in aws secret manager
-    remoteuserkey:                     #key of the login user value in aws secret manager
  
 
   rbac:
